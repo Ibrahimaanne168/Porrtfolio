@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mon Portfolio</title>
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="nom">El Hadji Ibrahima Anne</div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+</header>
+
+<nav id="menu">
+    <ul>
+        <li><a href="#" class="active">Accueil</a></li>
+        <li><a href="/pages/about.html">A propos</a></li>
+        <li><a href="/pages/gallery.html">Galerie</a></li>
+        <li><a href="/pages/contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1 class="titre">ACCEUIL</h1>
+    <section class="card">
+        <img alt="img" src="/images/img.jpg" class="photo">
+        <h2>El Hadji Ibrahima Anne</h2>
+        <p>Étudiant en Licence 3 Informatique à l'université
+            Amadou Mahtar Mbow de Diamniadio. <br> Je vis à Sebikhotane
+            et je suis passionné dans la découverte de nouvelles choses.
+        </p>
+
+        <div class="stats">
+            <div>
+                <h5 >Plusieurs<br>Projets Réalisés</h5>
+            </div>
+            <div>
+                <h5>Beaucoup de <br>Langages appris</h5>
+            </div>
+            <div>
+                <h5>Trois Années <br>d'Expérience</h5>
+            </div>
+        </div>
+
+    </section>
+<section class="software">
+
+    <h2 class="software-title">Software Skills</h2>
+
+    <div class="soft-grid">
+
+        <div class="soft">
+            <img src="/images/blender.jpg" alt="img1">
+            <span>Blender</span>
+        </div>
+
+        <div class="soft">
+            <img src="/images/krita.jpg" alt="img2">
+            <span>Krita</span>
+        </div>
+
+        <div class="soft">
+            <img src="/images/capcut.jpg" alt="img3">
+            <span>CapCut</span>
+        </div>
+
+        <div class="soft">
+            <img src="/images/canva.jpg" alt="img4">
+            <span>Canva</span>
+        </div>
+
+        <div class="soft">
+            <img src="/images/vscode.jpg" alt="img5">
+            <span>VSCode</span>
+        </div>
+
+        <div class="soft">
+            <img src="/images/Office.jpg" alt="img6">
+            <span>Office</span>
+        </div>
+
+    </div>
+
+</section>
+    <h2 class="software-title">etc.</h2>
+
+
+</main>
+
+<footer>
+    UAM Licence 3 Informatique
+</footer>
+
+<script>
+const toggle = document.getElementById("menu-toggle");
+const menu = document.getElementById("menu");
+
+toggle.addEventListener("click", () => {
+    menu.classList.toggle("active");
+});
+</script>
+
+</body>
+</html>
